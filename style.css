@@ -51,7 +51,8 @@ body{
 
 /* home section */
 
-.home-section.active{
+.home-section.active,
+.project-section.active{
     position: relative;
     opacity: 1;
     z-index: 8;
@@ -95,6 +96,7 @@ body{
     position: fixed;
     top: 0;
     transition: 1s;
+    opacity: 0;
 }
 
 .project-heading{
@@ -135,6 +137,7 @@ body{
     padding: 40px;
     color: white;
     transition: 0.5s;
+    opacity: 0;
 }
 
 .project-title{
@@ -170,4 +173,12 @@ body{
 .project-btn.live{
     background: none;
     border: 2px solid white;
+}
+
+.project-card:hover .project-img{
+    filter: blur(20px);
+}
+
+.project-card:hover .project-content{
+    opacity: 1;
 }
