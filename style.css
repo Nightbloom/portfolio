@@ -120,7 +120,7 @@ body{
     position: relative;
 }
 
-.project_img{
+.project-img{
     width: 100%;
     height: 100%;
     position: absolute;
@@ -142,4 +142,32 @@ body{
     text-transform: capitalize;
     text-align: center;
     font-weight: 300;
+}
+
+.project-info{
+    margin: 40px;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.project-btn-grp{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+}
+
+.project-btn{
+    height: 40px;
+    text-transform: capitalize;
+    font-size: 18px;
+    border: none;
+    background: black;
+    color: white;
+    cursor: pointer;
+}
+
+.project-btn.live{
+    background: none;
+    border: 2px solid white;
 }
