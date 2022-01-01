@@ -302,3 +302,34 @@ body{
     border-radius: 50%;
     border: 10px solid ;
 }
+
+.skill-card:nth-child(1) .skill-level{
+    background: rgba(224, 107, 38, 0.548);
+    border-color: rgb(253, 74, 3);
+    color: rgb(247, 217, 217);
+}
+.skill-card:nth-child(2) .skill-level{
+    background: rgba(38, 80, 194, 0.548);
+    border-color: rgb(10, 44, 236);
+    color: rgb(224, 225, 230);
+}
+.skill-card:nth-child(3) .skill-level{
+    background: rgba(233, 219, 18, 0.37);
+    border-color: rgb(205, 223, 45);
+    color: rgb(0, 0, 0);
+}
+.skill-card:nth-child(4) .skill-level{
+    background: rgba(125, 219, 85, 0.37);
+    border-color: rgb(50, 110, 42);
+    color: rgb(200, 230, 193);
+}
+.skill-card:nth-child(5) .skill-level{
+    background: rgba(51, 211, 176, 0.548);
+    border-color: rgb(24, 222, 248);
+    color: rgb(8, 32, 31);
+}
+.skill-card:nth-child(6) .skill-level{
+    background: rgba(67, 143, 48, 0.438);
+    border-color: rgba(5, 240, 5, 0.548);
+    color: rgb(0, 0, 0);
+}
