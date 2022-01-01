@@ -85,3 +85,26 @@ body{
     object-fit: cover;
     opacity: 0.5;
 }
+
+/* project-section */
+
+.project-section{
+    width: 100%;
+    min-height: 100vh;
+    padding: 150px 100px 100px;
+    position: fixed;
+    top: 0;
+    transition: 1s;
+}
+
+.project-heading{
+    font-size: 100px;
+    background: black;
+    text-transform: capitalize;
+    text-align: center;
+    margin-bottom: 50px;
+    color: rgb(37, 34, 34);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-stroke: 8px transparent;
+}
