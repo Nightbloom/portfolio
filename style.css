@@ -482,3 +482,32 @@ body{
     resize: none;
     font-family: sans-serif;
 }
+
+.form-submit-btn{
+    background: rgb(196, 52, 52);
+    color: white;
+    text-transform: capitalize;
+    padding: 15px 40px;
+    display: block;
+    margin: auto;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+/* map  */
+
+.map{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    border: 2px solid white;
+    background: rgba(255,255,255, 0.2);
+    border-radius: 10px;
+}
+
+.map iframe{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
